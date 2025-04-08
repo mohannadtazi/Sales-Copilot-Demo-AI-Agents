@@ -4,3 +4,4 @@ crewai[tools]
 streamlit
 groq
 python-dotenv
+pysqlite3-binary
