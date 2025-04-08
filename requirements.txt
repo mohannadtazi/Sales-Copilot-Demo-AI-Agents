@@ -1,0 +1,6 @@
+crewai
+firecrawl-py 
+crewai[tools]
+streamlit
+groq
+python-dotenv
