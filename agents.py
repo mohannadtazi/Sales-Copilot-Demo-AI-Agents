@@ -8,7 +8,7 @@ import os
 
 load_dotenv() 
 
-llm = LLM(model="groq/llama3-70b-8192", api_key=os.getenv('GROQ_API_KEY'))
+llm = LLM(model="groq/gemma2-9b-it", api_key=os.getenv('GROQ_API_KEY'))
 
 
 company_researcher = Agent(
