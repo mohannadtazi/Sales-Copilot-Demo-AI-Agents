@@ -5,3 +5,5 @@ streamlit
 groq
 python-dotenv
 pysqlite3-binary
+boto3 
+groq
