@@ -1,4 +1,4 @@
-from crewai_tools import SerperDevTool, FirecrawlScrapeWebsiteTool
+from crewai_tools import SerperDevTool, FirecrawlScrapeWebsiteTool, ScrapeWebsiteTool
 import os
 from dotenv import load_dotenv
 load_dotenv() 
