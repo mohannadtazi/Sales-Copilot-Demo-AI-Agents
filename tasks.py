@@ -7,7 +7,7 @@ company_research_task = Task(
 description= "Use the provided website URL {company_url} to generate a 300-word summary that clearly outlines what the company does, why they do it, where they are based, and their core values. Break the summary into distinct sections such as Overview, Products & Services, Team, Recent News/Blogs, and any other relevant areas. The final output should be in natural language and easily consumable by a sales rep preparing for an upcoming call.",
 expected_output= "A clear, well-organized, natural language summary of 300 words that covers the company overview, services, team background, and recent updates—synthesized from the provided JSON website data.",
 agent= company_researcher,
-tools=[scraper_tool]
+tools=[search_tool]
 )
 
 
