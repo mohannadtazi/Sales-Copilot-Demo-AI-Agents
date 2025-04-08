@@ -7,7 +7,7 @@ company_research_task = Task(
 description= "Use the provided website URL {company_url} to generate a 300-word summary that clearly outlines what the company does, why they do it, where they are based, and their core values. Break the summary into distinct sections such as Overview, Products & Services, Team, Recent News/Blogs, and any other relevant areas. The final output should be in natural language and easily consumable by a sales rep preparing for an upcoming call.",
 expected_output= "A clear, well-organized, natural language summary of 300 words that covers the company overview, services, team background, and recent updates—synthesized from the provided JSON website data.",
 agent= company_researcher,
-tools=[search_tool]
+tools=[scraper_tool]
 )
 
 
@@ -15,7 +15,7 @@ prospect_researcher_task = Task(
 description= "Process the provided LinkedIn profile URL {prospect_url} to create a 300-word summary. This summary should begin with basic details (Name, location, follower count, current company, and position) and then flow into an organized overview that highlights the prospect’s background, significant career experiences, and the duration in their current role. The output should read like a resume designed for quick pre-call preparation by a sales rep.",
 expected_output= "A coherent, natural language summary of 300 words that outlines the prospect’s key personal and professional details, starting with an introductory list format and followed by an in-depth career overview.",
 agent= prospect_researcher,
-tools= [search_tool]
+tools= [scraper_tool]
 )
 
 
