@@ -10,7 +10,7 @@ llm = LLM(model="huggingface/mistralai/Mistral-7B-Instruct-v0.1", api_key=os.get
 #scraper_tool = FirecrawlScrapeWebsiteTool(url='firecrawl.dev',   params={ 'limit': 3,  'scrapeOptions': {'formats': ['markdown', 'html']}  })
 
 scraper_tool = ScrapeWebsiteTool(llm = llm)
-search = GoogleSerperAPIWrapper(api_key=os.getenv('SERPER_API_KEY'))
+search = GoogleSerperAPIWrapper(serper_api_key=os.getenv('SERPER_API_KEY'))
 
 search_tool = Tool(
     name="Scrape google searches",
