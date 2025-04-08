@@ -7,3 +7,5 @@ python-dotenv
 pysqlite3-binary
 boto3 
 groq
+langchain
+langchain-community
